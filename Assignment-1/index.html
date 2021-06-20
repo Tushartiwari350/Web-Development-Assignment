@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+</head>
+<body>
+    <h1>This is Time Table</h1>
+    <table border="3" cellspacing="12" cellpadding="7">
+        <thead>
+            <th>Days/Periods</th>
+            <th>1</th>
+            <th>2</th>
+            <th></th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+
+        </thead>
+        <tr>
+            <td>Mon</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Hindi</td>
+            <td rowspan="6">Break</td>
+            <td>Maths</td>
+            <td>Games</td>
+            <td>Moral Science</td>
+
+
+        </tr>
+        <tr>
+            <td>Mon</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Hindi</td>
+            <!-- <td rowspan="4">Break</td> -->
+            <td>Maths</td>
+            <td>Games</td>
+            <td>Moral Science</td>
+
+
+        </tr>
+        <tr>
+            <td>Mon</td>
+            <td>Science</td>
+            <td>English</td>
+            <td rowspan="3">Hindi</td>
+            <!-- <td rowspan="4">Break</td> -->
+            <td>Maths</td>
+            <td>Games</td>
+            <td>Moral Science</td>
+
+
+        </tr>
+        <tr>
+            <td>Mon</td>
+            <td>Science</td>
+            <td>English</td>
+            <!-- <td>Hindi</td> -->
+            <!-- <td rowspan="4">Break</td> -->
+            <td>Maths</td>
+            <td>Games</td>
+            <td>Moral Science</td>
+
+
+        </tr>
+        <tr>
+            <td>Mon</td>
+            <td>Science</td>
+            <td>English</td>
+            <!-- <td>Hindi</td> -->
+            <!-- <td rowspan="4">Break</td> -->
+            <td>Maths</td>
+            <td>Games</td>
+            <td>Moral Science</td>
+
+
+        </tr>
+        <tr>
+            <td>Mon</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Hindi</td>
+            <!-- <td rowspan="4">Break</td> -->
+            <td colspan="3">Maths</td>
+            <!-- <td>Games</td>
+            <td>Moral Science</td> -->
+
+
+        </tr>
+    
+    </table>
+    <br>
+    <br>
+    <h1>My Bio Data</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <br>
+            <label for="firstname">First Name</label>
+            <input type="text"  id="firstname" placeholder="First Name" required>
+            <label for="lastname">Last Name</label>
+            <input type="text"  id="lastname" placeholder="Last Name" required>
+            <br>
+            <br>
+            Male:
+            <input type="radio" name="gender">
+            Female:
+            <input type="radio" name="gender">
+            Other:
+            <input type="radio" name="gender">
+            <br>
+            <br>
+            <label for="date">Date of Birth : </label>
+            <input type="date" name="date" id="date">
+            <br>
+            <br>
+            <label for="number">Phone</label>
+            <input type="tel" maxlength="12" name="number" id="number"< placeholder="+91">
+            <br>
+            <br>
+            <label for="height">Height</label>
+            <input type="number"  id="height" placeholder="Height in Feet">
+
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <br>
+            <label for="school">School Name :</label>
+            <input type="text" id="school" placeholder="School Name">
+            <br>
+            <br>
+            Class :
+            <input type="number" placeholder="Enter Class">
+            <br>
+            <br>
+
+            Stream :
+            <select>
+                <option>Stream</option>
+                <option>Science</option>
+                <option>Commerse</option>
+                <option>Arts</option>
+            </select>
+            <br>
+            <br>
+            Marksheet :
+            <input type="file">
+        </fieldset>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
